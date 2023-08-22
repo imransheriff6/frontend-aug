@@ -1,0 +1,69 @@
+/* #para{
+    color: blue;
+}
+.gr{
+    color: green;
+} */
+/* *{
+    color: blueviolet;
+} */
+/* div  h1{
+    color: red;
+} */
+p~small{
+    color: blue;
+}
+[name='check']{
+    color:red
+}
+.parent{
+    border: 1px solid grey;
+    width: 50vw;
+    border-radius: 5px;
+    /* box-shadow: 0 0 5px grey; */
+    margin-top: 10px;
+    /* margin-bottom: ;
+    margin-left:;
+    margin-right: ;
+    margin */
+    padding: 10px;
+}
+#w-90{
+    width: 80%;
+}
+/* .parent img{
+    width: 100%;
+} */
+.parent p::first-letter{
+    color: red;
+}
+.parent p::after{
+    content: '**';
+}
+.parent button{
+    background-color: cadetblue;
+    border: none;
+    box-shadow: 0 0 5px grey;
+    border-radius: 5px;
+}
+.parent button:hover{
+    background-color: rgb(95, 11, 240);
+}
+.parent button:active{
+    background-color: rgba(95, 158, 160, 0.423);
+}
+table{
+    border-collapse: collapse;
+}
+table tr td{
+    border: 1px solid grey
+}
+table tr:nth-child(3){
+    background-color: darkseagreen;
+    color: white;
+}
+table tr:nth-child(even){
+    background-color: red;
+    color: white;
+}
+

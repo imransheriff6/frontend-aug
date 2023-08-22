@@ -1,0 +1,32 @@
+.children{
+    box-shadow: 0 0 5px grey;
+    border-radius: 5px;
+    width: 350px;
+    padding: 5px;
+}
+.children img{
+    width: 100%;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse; */
+    justify-content: space-evenly;
+    align-items: end;
+}
+.children h1::first-letter{
+color: red;
+}
+.children:nth-child(even){
+    height: 500px;
+    overflow: hidden;
+}
+.children:nth-child(1){
+    order: 2;
+}
+.children:nth-child(2){
+    order: 1;
+}
+.children:nth-child(3){
+    order: 3;
+}

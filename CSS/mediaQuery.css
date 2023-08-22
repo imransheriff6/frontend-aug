@@ -1,0 +1,54 @@
+
+.children{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 350px;
+    padding: 8px;
+}
+.children img{
+    width: 100%;
+}
+.parent{
+    display: grid;
+    justify-content: center;
+}
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    #para {
+        background-color: blue;
+    }
+    .parent{
+        grid-template-columns: repeat(1,100%);
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    #para {
+        background-color: green;
+    }
+    .parent{
+        grid-template-columns: repeat(2,50%);
+    }
+}
+
+/* laptop */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #para {
+        background-color: yellow;
+    }
+    .parent{
+        grid-template-columns: repeat(2,50%);
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+    #para {
+        background-color: red;
+    }
+    .parent{
+        grid-template-columns: repeat(3,30%);
+    }
+}
+

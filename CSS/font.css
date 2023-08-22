@@ -1,0 +1,20 @@
+p {
+  color: red;
+  font-size: 20px;
+  /* font-family: cursive; */
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Lumanosimo', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  /* letter-spacing: 15px; */
+  /* word-spacing: 20px; */
+  text-align: justify;
+  /* text-transform: capitalize;
+    text-decoration: line-through; */
+  /* text-shadow: 1px 2px 2px #999; */
+  /* white-space: nowrap;
+  width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+}
